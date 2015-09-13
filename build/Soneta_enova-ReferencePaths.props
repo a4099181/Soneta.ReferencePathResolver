@@ -1,18 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
-  <PropertyGroup Condition="Exists('$(ProgramW6432)\Soneta')" >
-    <SonetaFolder>$(ProgramW6432)\Soneta</SonetaFolder>
-  </PropertyGroup>
-  <PropertyGroup Condition="Exists('$(ProgramFiles)\Soneta')" >
-    <SonetaFolder>$(ProgramFiles)\Soneta</SonetaFolder>
-  </PropertyGroup>
-
-  <Choose>
-    <When Condition="Exists('$(SonetaFolder)\enova 10.7.5506')">
-      <PropertyGroup>
-        <ReferencePath>$(SonetaFolder)\enova 10.7.5506</ReferencePath>
-      </PropertyGroup>
-    </When>
-  </Choose>
 </Project>
