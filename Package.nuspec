@@ -3,15 +3,16 @@
   <metadata>
     <id>Soneta_enova-ReferencePaths</id>
     <title>Soneta enova ReferencePath resolver</title>
-    <version>1.0.0-alpha1</version>
+    <version>1.0.0</version>
     <authors>sebastian.mach</authors>
     <owners>sebastian.mach</owners>
     <!-- <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl> -->
-    <!-- <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl> -->
+    <projectUrl>https://github.com/a4099181/Soneta.ReferencePathResolver</projectUrl>
     <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package tries to resolve installations of the Soneta enova ERP system. It should be helpful to develop enova extensions.</description>
-    <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
+    <description>This package sets up ReferencePath property at Visual Studio project file to make access to enova assemblies.</description>
+    <summary>It produces single ReferencePath entry for each known installation of the Soneta enova ERP system. It should be helpful to develop enova extensions on start already. Don't click to find a path to currently installed enova software. Get this package! It will make it for you and it will track any new enova installations in the future.</summary>
+    <releaseNotes>This is the first stable release of this package.</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Soneta enova ReferencePath</tags>
     <!-- <dependencies>
